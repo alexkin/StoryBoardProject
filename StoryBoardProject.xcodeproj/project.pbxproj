@@ -18,6 +18,29 @@
 		CED4C9641755FD0B00DD2FFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED4C9631755FD0B00DD2FFA /* Default-568h@2x.png */; };
 		CED4C9671755FD0B00DD2FFA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4C9651755FD0B00DD2FFA /* MainStoryboard.storyboard */; };
 		CED4C96A1755FD0B00DD2FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4C9691755FD0B00DD2FFA /* ViewController.m */; };
+		CED6BB0D1756E7C200BDA762 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6BB0C1756E7C200BDA762 /* TableViewController.m */; };
+		CED6BB101756EA3800BDA762 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6BB0F1756EA3700BDA762 /* Player.m */; };
+		CED6BB131756F2CF00BDA762 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6BB121756F2CF00BDA762 /* CustomCell.m */; };
+		CED6BB19175700FE00BDA762 /* AddPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6BB18175700FE00BDA762 /* AddPlayerViewController.m */; };
+		CED6BB1C1757246B00BDA762 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6BB1B1757246B00BDA762 /* PasswordViewController.m */; };
+		CED84832175876FC00E3B901 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CED8482C175876FC00E3B901 /* icon.png */; };
+		CED84833175876FC00E3B901 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED8482D175876FC00E3B901 /* icon@2x.png */; };
+		CED84834175876FC00E3B901 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CED8482E175876FC00E3B901 /* logo.png */; };
+		CED84835175876FC00E3B901 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED8482F175876FC00E3B901 /* logo@2x.png */; };
+		CED84836175876FC00E3B901 /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84830175876FC00E3B901 /* strip.png */; };
+		CED84837175876FC00E3B901 /* strip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED84831175876FC00E3B901 /* strip@2x.png */; };
+		CED8484517587E7600E3B901 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = CED8484417587E7600E3B901 /* pass.json */; };
+		CED8484717587E8000E3B901 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CED8484617587E8000E3B901 /* manifest.json */; };
+		CED8484C175886BD00E3B901 /* Certificates.p12 in Resources */ = {isa = PBXBuildFile; fileRef = CED84848175886BD00E3B901 /* Certificates.p12 */; };
+		CED8484D175886BD00E3B901 /* passcertificate.pem in Resources */ = {isa = PBXBuildFile; fileRef = CED84849175886BD00E3B901 /* passcertificate.pem */; };
+		CED8484E175886BD00E3B901 /* passkey.pem in Resources */ = {isa = PBXBuildFile; fileRef = CED8484A175886BD00E3B901 /* passkey.pem */; };
+		CED8484F175886BD00E3B901 /* WWDR.pem in Resources */ = {isa = PBXBuildFile; fileRef = CED8484B175886BD00E3B901 /* WWDR.pem */; };
+		CED848511758A8BB00E3B901 /* 11111.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = CED848501758A8BB00E3B901 /* 11111.pkpass */; };
+		CED848531758A8C400E3B901 /* 22222.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = CED848521758A8C400E3B901 /* 22222.pkpass */; };
+		CED848551758A8CE00E3B901 /* 33333.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = CED848541758A8CE00E3B901 /* 33333.pkpass */; };
+		CED848571758A8DF00E3B901 /* signature in Resources */ = {isa = PBXBuildFile; fileRef = CED848561758A8DF00E3B901 /* signature */; };
+		CEF48482175C3BA30039EC42 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF48481175C3BA30039EC42 /* FirstViewController.m */; };
+		CEF48484175C41150039EC42 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF48483175C41150039EC42 /* PassKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +60,35 @@
 		CED4C9661755FD0B00DD2FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CED4C9681755FD0B00DD2FFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CED4C9691755FD0B00DD2FFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CED6BB0B1756E7C200BDA762 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		CED6BB0C1756E7C200BDA762 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		CED6BB0E1756EA3700BDA762 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		CED6BB0F1756EA3700BDA762 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		CED6BB111756F2CF00BDA762 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		CED6BB121756F2CF00BDA762 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		CED6BB17175700FE00BDA762 /* AddPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlayerViewController.h; sourceTree = "<group>"; };
+		CED6BB18175700FE00BDA762 /* AddPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlayerViewController.m; sourceTree = "<group>"; };
+		CED6BB1A1757246B00BDA762 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		CED6BB1B1757246B00BDA762 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		CED8482C175876FC00E3B901 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CED8482D175876FC00E3B901 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CED8482E175876FC00E3B901 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CED8482F175876FC00E3B901 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		CED84830175876FC00E3B901 /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		CED84831175876FC00E3B901 /* strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strip@2x.png"; sourceTree = "<group>"; };
+		CED8484417587E7600E3B901 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		CED8484617587E8000E3B901 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		CED84848175886BD00E3B901 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		CED84849175886BD00E3B901 /* passcertificate.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = passcertificate.pem; sourceTree = "<group>"; };
+		CED8484A175886BD00E3B901 /* passkey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = passkey.pem; sourceTree = "<group>"; };
+		CED8484B175886BD00E3B901 /* WWDR.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WWDR.pem; sourceTree = "<group>"; };
+		CED848501758A8BB00E3B901 /* 11111.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = 11111.pkpass; sourceTree = "<group>"; };
+		CED848521758A8C400E3B901 /* 22222.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = 22222.pkpass; sourceTree = "<group>"; };
+		CED848541758A8CE00E3B901 /* 33333.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = 33333.pkpass; sourceTree = "<group>"; };
+		CED848561758A8DF00E3B901 /* signature */ = {isa = PBXFileReference; lastKnownFileType = file; path = signature; sourceTree = "<group>"; };
+		CEF48480175C3BA30039EC42 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CEF48481175C3BA30039EC42 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CEF48483175C41150039EC42 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF48484175C41150039EC42 /* PassKit.framework in Frameworks */,
 				CED4C94E1755FD0B00DD2FFA /* UIKit.framework in Frameworks */,
 				CED4C9501755FD0B00DD2FFA /* Foundation.framework in Frameworks */,
 				CED4C9521755FD0B00DD2FFA /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +109,7 @@
 		CED4C9411755FD0B00DD2FFA = {
 			isa = PBXGroup;
 			children = (
+				CED8482B175876FC00E3B901 /* FreeHugCoupon */,
 				CED4C9531755FD0B00DD2FFA /* StoryBoardProject */,
 				CED4C94C1755FD0B00DD2FFA /* Frameworks */,
 				CED4C94B1755FD0B00DD2FFA /* Products */,
@@ -73,6 +127,7 @@
 		CED4C94C1755FD0B00DD2FFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CEF48483175C41150039EC42 /* PassKit.framework */,
 				CED4C94D1755FD0B00DD2FFA /* UIKit.framework */,
 				CED4C94F1755FD0B00DD2FFA /* Foundation.framework */,
 				CED4C9511755FD0B00DD2FFA /* CoreGraphics.framework */,
@@ -86,6 +141,18 @@
 				CED4C95C1755FD0B00DD2FFA /* AppDelegate.h */,
 				CED4C95D1755FD0B00DD2FFA /* AppDelegate.m */,
 				CED4C9651755FD0B00DD2FFA /* MainStoryboard.storyboard */,
+				CEF48480175C3BA30039EC42 /* FirstViewController.h */,
+				CEF48481175C3BA30039EC42 /* FirstViewController.m */,
+				CED6BB17175700FE00BDA762 /* AddPlayerViewController.h */,
+				CED6BB18175700FE00BDA762 /* AddPlayerViewController.m */,
+				CED6BB0B1756E7C200BDA762 /* TableViewController.h */,
+				CED6BB0C1756E7C200BDA762 /* TableViewController.m */,
+				CED6BB1A1757246B00BDA762 /* PasswordViewController.h */,
+				CED6BB1B1757246B00BDA762 /* PasswordViewController.m */,
+				CED6BB111756F2CF00BDA762 /* CustomCell.h */,
+				CED6BB121756F2CF00BDA762 /* CustomCell.m */,
+				CED6BB0E1756EA3700BDA762 /* Player.h */,
+				CED6BB0F1756EA3700BDA762 /* Player.m */,
 				CED4C9681755FD0B00DD2FFA /* ViewController.h */,
 				CED4C9691755FD0B00DD2FFA /* ViewController.m */,
 				CED4C9541755FD0B00DD2FFA /* Supporting Files */,
@@ -105,6 +172,29 @@
 				CED4C9631755FD0B00DD2FFA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED8482B175876FC00E3B901 /* FreeHugCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				CED848541758A8CE00E3B901 /* 33333.pkpass */,
+				CED848521758A8C400E3B901 /* 22222.pkpass */,
+				CED848501758A8BB00E3B901 /* 11111.pkpass */,
+				CED8484617587E8000E3B901 /* manifest.json */,
+				CED84848175886BD00E3B901 /* Certificates.p12 */,
+				CED848561758A8DF00E3B901 /* signature */,
+				CED84849175886BD00E3B901 /* passcertificate.pem */,
+				CED8484A175886BD00E3B901 /* passkey.pem */,
+				CED8484B175886BD00E3B901 /* WWDR.pem */,
+				CED8484417587E7600E3B901 /* pass.json */,
+				CED8482C175876FC00E3B901 /* icon.png */,
+				CED8482D175876FC00E3B901 /* icon@2x.png */,
+				CED8482E175876FC00E3B901 /* logo.png */,
+				CED8482F175876FC00E3B901 /* logo@2x.png */,
+				CED84830175876FC00E3B901 /* strip.png */,
+				CED84831175876FC00E3B901 /* strip@2x.png */,
+			);
+			path = FreeHugCoupon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +253,22 @@
 				CED4C9621755FD0B00DD2FFA /* Default@2x.png in Resources */,
 				CED4C9641755FD0B00DD2FFA /* Default-568h@2x.png in Resources */,
 				CED4C9671755FD0B00DD2FFA /* MainStoryboard.storyboard in Resources */,
+				CED84832175876FC00E3B901 /* icon.png in Resources */,
+				CED84833175876FC00E3B901 /* icon@2x.png in Resources */,
+				CED84834175876FC00E3B901 /* logo.png in Resources */,
+				CED84835175876FC00E3B901 /* logo@2x.png in Resources */,
+				CED84836175876FC00E3B901 /* strip.png in Resources */,
+				CED84837175876FC00E3B901 /* strip@2x.png in Resources */,
+				CED8484517587E7600E3B901 /* pass.json in Resources */,
+				CED8484717587E8000E3B901 /* manifest.json in Resources */,
+				CED8484C175886BD00E3B901 /* Certificates.p12 in Resources */,
+				CED8484D175886BD00E3B901 /* passcertificate.pem in Resources */,
+				CED8484E175886BD00E3B901 /* passkey.pem in Resources */,
+				CED8484F175886BD00E3B901 /* WWDR.pem in Resources */,
+				CED848511758A8BB00E3B901 /* 11111.pkpass in Resources */,
+				CED848531758A8C400E3B901 /* 22222.pkpass in Resources */,
+				CED848551758A8CE00E3B901 /* 33333.pkpass in Resources */,
+				CED848571758A8DF00E3B901 /* signature in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +282,12 @@
 				CED4C95A1755FD0B00DD2FFA /* main.m in Sources */,
 				CED4C95E1755FD0B00DD2FFA /* AppDelegate.m in Sources */,
 				CED4C96A1755FD0B00DD2FFA /* ViewController.m in Sources */,
+				CED6BB0D1756E7C200BDA762 /* TableViewController.m in Sources */,
+				CED6BB101756EA3800BDA762 /* Player.m in Sources */,
+				CED6BB131756F2CF00BDA762 /* CustomCell.m in Sources */,
+				CED6BB19175700FE00BDA762 /* AddPlayerViewController.m in Sources */,
+				CED6BB1C1757246B00BDA762 /* PasswordViewController.m in Sources */,
+				CEF48482175C3BA30039EC42 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +337,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -248,7 +360,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoardProject/StoryBoardProject-Prefix.pch";
 				INFOPLIST_FILE = "StoryBoardProject/StoryBoardProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryBoardProject/StoryBoardProject-Prefix.pch";
 				INFOPLIST_FILE = "StoryBoardProject/StoryBoardProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,7 +401,7 @@
 				CED4C96C1755FD0B00DD2FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CED4C96D1755FD0B00DD2FFA /* Build configuration list for PBXNativeTarget "StoryBoardProject" */ = {
 			isa = XCConfigurationList;
@@ -296,6 +410,7 @@
 				CED4C96F1755FD0B00DD2FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

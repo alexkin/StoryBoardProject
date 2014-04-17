@@ -1,0 +1,60 @@
+{
+    "formatVersion" : 1,
+    "passTypeIdentifier" : "pass.com.cwvs",
+    "serialNumber" : "001",
+    "teamIdentifier" : "S78KT39CEM",
+    "organizationName" : "中国银行支票",
+    "description" : "Coupon for 1 Free Hug",
+    "logoText" : "中国银行100亿支票",
+    "foregroundColor" : "rgb(255, 255, 255)",
+    "backgroundColor" : "rgb(135, 129, 189)",
+    "labelColor" : "rgb(45, 54, 129)",
+    "barcode" : {
+        "message" : "All you need is love",
+        "format" : "PKBarcodeFormatPDF417",
+        "messageEncoding" : "iso-8859-1"
+    },
+        "coupon" : {
+            "primaryFields"   : [
+                                  {
+                                  "key" : "offer",
+                                  "label" : "给你100亿",
+                                  "value" : "中国银行"
+                                  }
+                                  
+                                  ],
+            "secondaryFields" : [
+                                 {
+                                 "key" : "expires",
+                                 "label" : "Valid for",
+                                 "value" : "永久有效"
+                                 }
+                                 ],
+            "auxiliaryFields" : [
+                                 {
+                                 "key" : "date",
+                                 "label" : "Promo starts on",
+                                 "dateStyle" : "PKDateStyleMedium",
+                                 "timeStyle" : "PKDateStyleNone",
+                                 "value" : "2013-5-31T00:00Z"
+                                 }
+                                 ],
+            "backFields" : [
+                            {
+                            "key" : "extras",
+                            "label" : "提示",
+                            "value" : "支票将永久有效，可转让，可提现，可部分转存"
+                            },
+                            {
+                            "key" : "phone",
+                            "label" : "想了解更多请拨打热线电话:",
+                            "value" : "＋86－010－110"
+                            },
+                            {
+                            "key" : "terms",
+                            "label" : "passbook介绍",
+                            "value" : "Passbook是苹果公司于北京时间2012年6月12日上午，在全球开发者大会(WWDC)上宣布了iOS 6系统将提供操作一个全新的应用——Passbook。这是一款可以存放登机牌、会员卡和电影票的工具。该功能将整合来自各类服务的票据，包括电影票、登机牌、积分卡和礼品卡等。这些票据将被显示在锁屏屏幕上。通过定位功能，当用户走到相关商店或场所附近时，对应的票据将会被自动显示。在不少印刷品都开始数码化的这个年代，使用电子优惠券或电子机票等其实是很平常的事。不过这些电子券一多，就很容易出现管理上的问题。在今天的 WWDC 上，Apple 就为 iOS 6 带来 Passbook，一个将这些电子券集合的功能。除了集合外，Passbook 也可以根据使用者的位置提供适合的电子券，好让大家一到 Starbucks 就可以即时使用相关的优惠，又或者当航班延误，也可以透过 Passbook 为使用者作提示（当然前提是航空公司支持）。这个将在年底随 iOS 6 推出的功能，是否可以在美国以外使用还是疑问，不过即使还不能，这个功能的概念还是非常不错的。"
+                            }
+                            ]
+    }
+}

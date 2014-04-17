@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "TableViewController.h"
+#import "Player.h"
+@implementation AppDelegate{
 
-@implementation AppDelegate
+    NSMutableArray *playerAry;
+}
 
 - (void)dealloc
 {
@@ -19,6 +23,33 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    playerAry = [NSMutableArray arrayWithCapacity:20];
+    
+    Player *player = [[Player alloc] init];
+    player.name = @"Bill Evans";
+    player.psd = @"Tic-Tac-Toe";
+    player.lev = 4;
+    [playerAry addObject:player];
+    [player  release];
+    player = [[Player alloc] init];
+    player.name = @"Oscar Peterson";
+    player.psd = @"Spin the Bottle";
+    player.lev = 5;
+    [playerAry addObject:player];
+    [player release];
+    player = [[Player alloc] init];
+    player.name = @"Dave Brubeck";
+    player.psd = @"Texas Hold’em Poker";
+    player.lev = 2;
+    [playerAry addObject:player];
+    [player release];
+    //绑定数据源
+    
+    UITabBarController *tabbar=(UITabBarController *)self.window.rootViewController;
+    UINavigationController *nav=(UINavigationController *) [[tabbar viewControllers] objectAtIndex:2];
+    TableViewController *tablevc=   (TableViewController *) [[nav viewControllers] objectAtIndex:0];
+    
+    tablevc.players=playerAry;
     return YES;
 }
 							
